@@ -19,6 +19,7 @@ switch (1) {
     }
 }
 alert("Tub son yoki murakkab son??");
+//---------------------------------------------------------------------------------
 // Tub son va murakkab sonni aniqlovchi dastur :)
 
 let d = Number(prompt("Son kiriting"));
@@ -30,7 +31,17 @@ if (d / d == 1 && d / 1 == d && d % 2 == 1) {
 } else {
   console.log("Raqam kiriting!!");
 }
+//for siklida
+// let son = 7;
+// let idf = 0;
 
+// for (let i = 2; i < son; i++) {
+//   if (son % i == 0) {
+//     idf += 1;
+//   }
+// }
+// idf ? console.log("Son tub emas") : console.log("Son tub");
+//------------------------------------------------------------------------------------------------
 //Amerikanskiy shokolad kilosi nech pulligini aniqlovchi dastur:)
 
 let chocolateCostUSD = 5;
